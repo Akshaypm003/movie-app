@@ -8,7 +8,7 @@ function Navbar() {
   return (
     
 
-      <div className="navbar flex p-1 justify-between align-middle bg-slate-100">
+      <div className="navbar flex p-1 justify-between align-middle bg-neutral-900 text-white">
         <h2 className="ps-3 text-2xl font-black tracking-widest ">NOVA.</h2>
         <div className="genre pe-5 my-auto ">
           <span className={genreItem}>COMEDY</span>

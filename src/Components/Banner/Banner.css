@@ -1,12 +1,10 @@
 .banner{
-  
     overflow-y: scroll;
     overflow-x: hidden;
     scroll-snap-type: y mandatory;
     scroll-behavior: smooth;
     height: 92vh;
-    margin-top:8vh ;
-    
+    margin-top:8vh ;  
 }
 .banner::-webkit-scrollbar{
     /* remove scrollbar but keeps the action  */
@@ -17,16 +15,10 @@
     scroll-snap-align: start;
 }
 .banner-wpr{
-    background-image: url(images/car.jpg);
+    /* background-image: url(images/car.jpg); */
     background-size: cover;
     height: 92vh;  
-}
-
-.banner-wpr2{
-    background-image: url(images/sky.jpg);
-    background-size: cover;
-     height: 92vh;
-     
+    color: white;
 }
 
 .content{
