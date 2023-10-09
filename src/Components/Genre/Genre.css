@@ -1,11 +1,11 @@
-.comedy-wpr{
+.genre-wpr{
     margin-top: 8vh;
 }
-.comedy{
+.genre{
     max-height: 170px;
     aspect-ratio: 5/2;
 }
-.comedy img{
+.genre img{
     /* height: 300px; */
     object-fit: cover;
 }

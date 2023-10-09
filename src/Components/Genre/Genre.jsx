@@ -1,5 +1,5 @@
 import React, { Fragment, useEffect, useState } from "react";
-import "./Comedy.css";
+import "./Genre.css";
 import axios from "../../Axios";
 import { imageUrl } from "../../Constants/Constants";
 
@@ -13,12 +13,10 @@ function Genre(props) {
       .then((res) => {
         // console.log(res.data.results);
         setGenre(res.data.results);
-
       })
       .catch((err) => console.log("error genre"));
   }, []);
 
-  // const c = [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1];
 
   return (
     <Fragment>
