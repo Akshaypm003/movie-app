@@ -4,13 +4,18 @@ import { useNavigate } from "react-router-dom";
 
 function Navbar() {
 
-  const genreItem = "ps-2 text-base font-medium tracking-tight"; 
+  const genreItem = "ps-5 text-base font-medium tracking-tight"; 
   const navigate = useNavigate();
 
   return (
     <div className="navbar flex p-1 justify-between align-middle bg-neutral-900 text-white">
-      <h2 className="ps-3 text-2xl font-black tracking-widest ">NOVA.</h2>
-      <div className="genre pe-5 my-auto ">
+      <h2
+        onClick={() => navigate("/")}
+        className="ps-8 my-auto text-2xl font-black tracking-widest "
+      >
+        NOVA.
+      </h2>
+      <div className="nav-genre pe-10 my-auto ">
         <span onClick={() => navigate("/trending")} className={genreItem}>
           TRENDING
         </span>

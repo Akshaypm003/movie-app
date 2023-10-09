@@ -19,11 +19,11 @@ function Genre(props) {
 
 
   return (
-    <Fragment>
-      <div className="comedy-wpr p-3 flex flex-wrap justify-around">
+    <fragment>
+      <div className="genre-wpr p-3 flex flex-wrap gap-3">
         {genre.map((movie) => {
           return (
-            <div className="comedy pb-2">
+            <div className="genre pb-2">
               <img
                 src={movie ? imageUrl+movie.backdrop_path : null }
                 alt="data not found"
@@ -35,7 +35,7 @@ function Genre(props) {
           );
         })}
       </div>
-    </Fragment>
+    </fragment>
   );
 }
 

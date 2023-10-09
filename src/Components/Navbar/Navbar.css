@@ -6,7 +6,8 @@
   left:0px;
 }
 
-.genre span:hover{
-  scale: 1.3;
+.nav-genre span:hover,.navbar h2:hoverg{
+  
   cursor: pointer;
+  color: aqua;
 }
