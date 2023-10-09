@@ -33,11 +33,7 @@ function Banner() {
                 <button className="btn">Play</button>
                 <button className="btn">My list</button>
               </div>
-              <h1 className="description">
-                Lorem ipsum is a popular filler text commonly used in graphic
-                design, writing, and publishing. It is a mutilated version of a
-                Latin text, "Lorem ipsum," which means "there is no meaning.
-              </h1>
+              <h1 className="description">{obj.overview}</h1>
             </div>
           </section>
         );

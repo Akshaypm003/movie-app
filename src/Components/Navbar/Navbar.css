@@ -1,7 +1,12 @@
 .navbar{
-position: fixed;
+  position: fixed;
   height: 8vh !important;
   width: 100%;  
   top: 0px;
   left:0px;
+}
+
+.genre span:hover{
+  scale: 1.3;
+  cursor: pointer;
 }
