@@ -2,10 +2,14 @@
     margin-top: 8vh;
 }
 .genre{
-    max-height: 170px;
-    aspect-ratio: 5/2;
+  max-width: 400px;  
 }
 .genre img{
-    /* height: 300px; */
+    max-width: 400px;
+    aspect-ratio: 5/3;
     object-fit: cover;
+}
+.genre:hover{
+    scale: 1.05;
+    color: rgb(6, 150, 150);
 }
