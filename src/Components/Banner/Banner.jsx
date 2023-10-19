@@ -10,7 +10,7 @@ function Banner() {
 
   useEffect(() => {
     axios.get(originals).then((res) => {
-      console.log(res.data.results);
+      // console.log(res.data.results);
       setMovie(res.data.results);
     });
   }, []);
