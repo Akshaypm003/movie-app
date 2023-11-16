@@ -1,14 +1,27 @@
 .navbar{
-  position: fixed;
-  height: 8vh !important;
+  /* position: fixed; */
+  /* height: 8vh !important; */
   width: 100%;  
-  top: 0px;
+  /* top: 0px;
   left:0px;
-  z-index: 199;
+  z-index: 199; */
 }
 
 .nav-genre span:hover,.navbar h2:hover{
   
   cursor: pointer;
   color: aqua;
+}
+
+@media screen and (max-width: 600px) {
+
+    .nav-genre{
+      padding: 10px 10px 0 10px  !important;
+    }
+  .nav-genre span{
+    padding:0 0 0 5px !important;
+    font-size: 12px;
+    line-height: 1rem;
+    
+  }
 }

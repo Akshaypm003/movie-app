@@ -4,7 +4,7 @@
     scroll-snap-type: y mandatory;
     scroll-behavior: smooth;
     height: 92vh;
-    margin-top:8vh ;  
+    /* margin-top:8vh ;   */
 }
 .banner::-webkit-scrollbar{
     /* remove scrollbar but keeps the action  */
@@ -18,6 +18,7 @@
     /* background-image: url(images/car.jpg); */
     background-size: cover;
     height: 92vh;  
+    width: 100vw !important;
     color: white;
 }
 
@@ -55,4 +56,23 @@
     height: 80px;
     max-width: 33rem;
     overflow-y: hidden;
+}
+
+@media screen and (max-width:600px) {
+  
+  .title{
+    font-size: 1.5rem;
+    }
+
+    .content{
+    padding: 70px 0 0 10px;
+}
+
+    .description{
+    line-height: 1;
+    padding-top: 0.7rem;
+    font-size: 0.7rem;
+    height: 120px;
+    max-width: 15rem;
+    }
 }

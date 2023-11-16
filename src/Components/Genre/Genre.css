@@ -1,5 +1,5 @@
 .genre-wpr{
-    margin-top: 8vh;
+    /* margin-top: 8vh; */
 }
 .genre{
   max-width: 400px;  
@@ -15,4 +15,14 @@
 }
 .genre p{
     text-wrap: nowrap;
+}
+
+@media screen and (max-width: 600px) {
+.genre p{
+    font-size: 12px;
+    line-height: 1rem;
+    max-width: 200px;
+    text-wrap: wrap;
+}
+  
 }
